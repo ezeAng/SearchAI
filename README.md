@@ -8,6 +8,7 @@ The 4 algorithms implemented are:
 * Uniform Cost Search
 * Astar Search 
 
+
 The problem statement to be solved:
 We are given a King chess piece in a game board of varying sizes and each board contains varying number of obstacles as well as enemy game pieces. The positions of the obstacles and enemy chess pieces are given in the input file and they remain static at all times (remain in the same position throughout the gameplay). The enemy chess pieces can threaten its surrounding positions based on the type of chess piece it is. This implies that our King piece cannot venture to the threatened positions due to the enemy chess pieces. Hence, our King piece is not allowed to move to these threatened positions.
 Furthermore, our King’s aim is to escape the dungeon and not fight the guards. Hence, our King piece cannot capture (i.e., remove) other enemy pieces on the board and it cannot visit squares inhabited by other pieces (of course, including obstacles).
@@ -54,3 +55,7 @@ An example of the function printed and its output is shown below:
 print(run BFS())
 Output:
 [[(′a′, 0), (′b′, 0)], [(′b′, 0), (′c′, 0)], [(′c′, 0), (′d′, 0)], [(′d′, 0), (′e′, 1)], [(′e′, 1), (′d′, 2)]]
+
+
+Note to user:
+* To test the algorithm you may try using an input file and uncommenting the print commands (currently commented-out) in the files 
